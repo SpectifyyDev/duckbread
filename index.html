@@ -3,15 +3,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Duckbread.com</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>SPECTIFYYDEV</h1> 
+    <p>Please Enter Your Authorization Password Based On Level Access</p>
+    <script language="javascript">
+        var username = "codaNOIR#"
+        var password = "auth1"
 
-    <p>
-        gaygaygaygaygaygaygaygaygaygaygaygay
-    </p>
+        function pasuser(form) { 
+        if (form.id.value==username) { 
+        if (form.pass.value==password) { location="https://www.youtube.com/watch?v=BpgUQYARIsw" } 
+        else { alert("Wrong Password") } 
+        } 
+        else { alert("Wrong Username") } 
+        } 
+        </script>
+        <form name="login">
+        Username: < input name="id" size="6" type="text">
+        Password: < input name="pass" size="6" type="password">
+        <input value="Login" onclick="pasuser(this.form)" type="button">
+        </form>
     
 </body>
 </html>
