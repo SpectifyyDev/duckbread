@@ -1,6 +1,14 @@
-body 
+.developmenttext
 {
-    color: blue;
-    margin: 0;
-    text-align: center;
+color: red;
+margin: 0;
+padding: 0;
+text-align: center;
+
+}
+
+.centerimg
+{
+    display: flex;
+	justify-content: center;
 }
